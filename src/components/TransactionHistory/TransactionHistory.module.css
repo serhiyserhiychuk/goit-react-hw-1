@@ -1,0 +1,21 @@
+.table {
+  margin: 60px auto;
+  width: 480px;
+  border-spacing: 0;
+}
+.headers {
+  color: #ffffff;
+  background-color: #000000;
+  width: calc(100% / 3);
+}
+.body {
+  border: 2px solid #000000;
+}
+.line:nth-child(even) {
+  background-color: gainsboro;
+}
+.rows {
+  border: 1px solid #000000;
+  padding-left: 40px;
+  font-size: 16px;
+}
